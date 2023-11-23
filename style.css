@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -12,20 +12,21 @@
 /* First section*/
 
 .first-section {
-    background-color: #1f2937; ;
+    background-color: #1f2937;
+    height: 55vw;
 }
 
-.first-img{
-    width: 35%;
+.first-img {
+    width: 40%;
     border-radius: 8px;
 }
 
-.navbar-left{
+.navbar-left {
     color: #F9FAF8;
     font-size: 3vw;
 }
 
-.list{
+.list {
     list-style-type: none;
     display: flex;
     color: #E5E7EB;
@@ -33,16 +34,16 @@
     font-size: 4vw;
 }
 
-.navbar{
- display: flex;
- align-items: center;
- justify-content: space-between;
- margin-bottom: 5%;
- margin-left: 4%;
- margin-right: 4%;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
-.content{
+.content {
     color: #E5E7EB;
     display: flex;
     width: 90%;
@@ -50,32 +51,31 @@
 }
 
 
-.first-button{
+.first-button {
     background-color: #3882F6;
-    color: #F9FAF8;
+    color: #E5E7EB;
     border: #F9FAF8 solid 2px;
-    border-radius: 5px;
+    border-radius: 6px;
     height: 15%;
     width: 75%;
     font-size: 4vw;
 }
 
-.first-section-text{
+.first-section-text {
     min-width: 255%;
-    max-height: 45%;
     font-size: 4vw;
 }
 
-.first-section-title{
+.first-section-title {
     width: 160%;
     font-size: 7vw;
 }
 
-.content-left{
+.content-left {
     width: 50%;
 }
 
-.content-right{
+.content-right {
     height: 20%;
     display: flex;
     justify-content: flex-end;
@@ -86,32 +86,32 @@
 /* Second section*/
 
 
-.second-img{
-    width: 45%;
+.second-img {
+    max-width: 45%;
     height: auto;
     border: 3px #3882F6 solid;
     border-radius: 16px;
 }
 
-.second-title{
-  font-weight: bolder;
-  color: #1f2937;
-  text-align: center;
-  font-size: 7vw;
+.second-title {
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    font-size: 7vw;
 }
 
-.text{
+.text {
     font-size: 5vw;
     width: 45%;
 }
 
-.second-text{
+.second-text {
     display: flex;
     flex-wrap: wrap;
     margin-top: 4%;
 }
 
-.second-section-info{
+.second-section-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,35 +119,37 @@
     margin-bottom: 4%;
 }
 
-.second-section-info{
+.second-section-info {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    max-width: 100px;
     margin-bottom: 4%;
 }
 
 /* Third section */
 
-.third-section{
+.third-section {
     background-color: #E5E7EB;
+    padding: 0.2em;
 }
 
-.third-sect-items{
-width: 90%;
-margin: auto;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
+.third-sect-items {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
-.third-section-text{
+.third-section-text {
     color: #1f2937;
     font-size: 5vw;
 }
 
-.author{
+.author {
     font-size: 5vw;
 }
 
@@ -155,34 +157,46 @@ align-items: flex-end;
 
 /* Fourth section */
 
-.fourth-section{
+.fourth-section {
     background-color: #3882F6;
-    border-radius: 2px;
-    width: 90%;
-    max-height: 10%;
+    border-radius: 8px;
+    width: 95%;
     margin: auto;
     margin-top: 4vw;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
+    padding: 0.2em;
 }
 
-.fourth-left{
+.fourth-left {
     color: #F9FAF8;
-    width: 75%;
+    width: 90%;
 }
 
-.second-button{
+.fourth-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40%;
+    float: right;
+}
+
+.second-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: #F9FAF8 2px solid;
-    border-radius: 8px;
-    font-size: 5vw;
+    border-radius: 6px;
+    font-size: 4vw;
+    padding: 0.5em;
 }
 
-.fourth-sect-title{
+.fourth-sect-title {
     font-size: 6vw;
 }
 
-.fourth-sect-para{
+.fourth-sect-para {
     font-size: 4vw;
+    width: 75%;
 }
