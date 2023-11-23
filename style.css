@@ -54,7 +54,7 @@
 .first-button {
     background-color: #3882F6;
     color: #E5E7EB;
-    border: #F9FAF8 solid 2px;
+    border: #F9FAF8 solid 1px;
     border-radius: 6px;
     height: 15%;
     width: 75%;
@@ -189,7 +189,7 @@
     border: #F9FAF8 2px solid;
     border-radius: 6px;
     font-size: 4vw;
-    padding: 0.5em;
+    padding: 0.25em;
 }
 
 .fourth-sect-title {
@@ -198,5 +198,95 @@
 
 .fourth-sect-para {
     font-size: 4vw;
-    width: 75%;
+    width: 110%;
+}
+
+@media screen and (min-width:300px) {
+    .text {
+        font-size: 4vw;
+        width: 60%;
+    }
+
+    .second-img {
+        max-width: 80px;
+    }
+
+    .second-section-info {
+        max-width: 150px;
+    }
+
+}
+
+@media screen and (min-width:400px) {
+    .text {
+        width: 70%;
+        font-size: 4vw;
+    }
+
+    .second-img {
+        max-width: 70%;
+    }
+
+    .second-section-info {
+        min-width: 50%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .text {
+        font-size: 3vw;
+    }
+
+    .third-section-text {
+        font-size: 4vw;
+    }
+
+    .author {
+        font-size: 4vw;
+    }
+
+    .fourth-sect-title {
+        font-size: 4vw;
+    }
+
+    .fourth-sect-para {
+        font-size: 3vw;
+    }
+
+    .second-button {
+        font-size: 3vw;
+        padding: 0.2vw;
+    }
+
+    .first-section-text {
+        height: 50%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .first-section-text {
+        font-size: 4vw;
+        min-width: 200%;
+    }
+
+    .first-section-title {
+        font-size: 6vw;
+    }
+
+    .first-button {
+        max-width: 50%;
+    }
+
+    .list {
+        font-size: 3vw;
+    }
+
+    .second-title {
+        font-size: 5vw;
+    }
+
+    .second-section-info {
+        max-width: 25%;
+    }
+
 }
